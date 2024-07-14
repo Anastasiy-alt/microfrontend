@@ -1,0 +1,56 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px;
+  max-width: 90vw;
+  font-family: Montserrat, sans-serif;
+}
+
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.card {
+  background: #FDFDFD;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
+  min-height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 5px;
+  outline: 2px solid deepskyblue;
+}
+
+.card__img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card__title {
+  margin: 15px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 130%;
+}
+
+.card__time {
+  margin: 0 0 15px 15px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #A0A0A0;
+}

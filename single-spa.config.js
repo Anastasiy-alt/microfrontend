@@ -1,4 +1,7 @@
 import { registerApplication, start } from 'single-spa'
+import { createStore } from './src/store/index.js'
+
+window.store = createStore()
 
 registerApplication(
     'vue',
